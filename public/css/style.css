@@ -1,0 +1,253 @@
+.navRow{
+    background-color: rgba(0, 0, 0, 0.879);
+    height: 9vh;
+    width: 100%;
+
+}
+h1, p{
+    color:rgba(89, 87, 87, 0.988);
+}
+.nav-link:hover, .h1WorkWithUs, .h1makeDishes, .pmakeDishes{
+    color: white;
+}
+.logo{
+    width: 20%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: auto; 
+    margin-top: 0%;
+}
+.textWhite, .bannerTop, p h1{
+    color: white!important;
+}
+.textWhite:hover{
+    cursor: url("../images/arroz.png"), auto!important;
+
+}
+.sizeNav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.spaceNav{
+    width: 21.5vh;
+}
+
+.bannerTop{
+    background-image: url(../images/banner_top.jpg);
+    background-size: cover;
+    padding: 0%;
+    height: 90vh;
+}
+.logoBanner{
+    width: auto;
+}
+.bannerTopCol{
+    height: 36vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 21.5vh;
+}
+.h1Banner{
+    color: white;
+}
+
+.encabezado{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.imgCard{
+    width: 15%;
+    margin-top: 30px;
+    filter: opacity(0.7);
+}
+.containerImgCard{
+    display: flex;
+    justify-content: center;
+}
+.textBodyCard{
+    text-align: center;
+    color:rgba(89, 87, 87, 0.879);
+}
+.sombraCard{
+    box-shadow:-4px -2px 9px 8px #e0d9e0af;
+}
+.marginTopCard{
+    margin-top: 30px;
+    display: flex;
+}
+.alinearCardMiddle{
+    display: flex;
+    justify-content: center;
+    margin-top:5px;
+}
+.alinearCard{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+} 
+.cardOne{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.colCardOne{
+    display: flex;
+    justify-content: center;
+}
+
+.workWithUs{
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.879);
+    text-align: center;
+}
+.workWithUsCol {
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.makeDishes{
+    margin-top:30px
+}
+
+.iconWorkWithUs {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100;
+    padding: none;
+    padding: 0 10%;
+}
+.styleForm{
+    border: 1px solid  #e0d9e0af;
+    box-shadow:-4px -2px 9px 8px #e0d9e0af;
+    text-align: center;
+    width: 50%;
+
+}
+.styleLabelForm{
+    padding: 0 30px;;
+}
+.h1Form{
+    margin-top: 30px;
+    color: rgb(97, 97, 97);
+}
+.imgCardFooter{
+    width: 60%;
+    margin-top: 10px;
+    filter: opacity(0.7);
+    
+}
+.iconCardFooter{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.containerIconFooter{
+    display: flex;
+    justify-content: space-around;
+}
+.alinearCardFooter{
+    display: flex;
+    justify-content: flex-start;
+    margin-top:30px;
+    color: rgb(97, 97, 97);
+    align-items: center;
+
+}
+.alinearForm{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:30px;
+}
+.borderNone{
+    border:none!important;
+}
+.colorTextLink{
+    color: rgb(57, 56, 56);
+    font-weight: bold;
+}
+.colorTextLink:hover {
+    color: rgb(57, 56, 56);
+    font-weight: bold;
+}
+.allDishesIndex{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.marginAllDishesIndex{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+}
+.makeDishes{
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.879);
+    text-align: center;
+   }
+.botonFooter{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 12px;
+    
+}
+.botonFooter:hover{
+    cursor: url("../images/arroz.png"), auto!important;
+    border: 1px solid white;
+}
+.botonSaveDish{
+    margin-bottom: 30px;
+}
+.botonSaveDish:hover{
+    cursor: url("../images/arroz.png"), auto!important;
+ 
+}
+.h1makeDishes{
+    margin-top: 7vh;
+    color: white;
+}
+.colFooterIconos{
+    width: 50%;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.iconFooter{
+    width: 5%;
+}
+.rowFooterIconos{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.botonBanner:hover{
+    cursor: url("../images/arroz.png"), auto!important;
+
+}
+
+.carrouselSushi{
+    width: 35%;
+}
+.imgCarrouselSushi{
+    filter: invert(1);
+}
+
+
+
+
+
+
+
+

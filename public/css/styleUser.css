@@ -1,0 +1,122 @@
+
+body{
+    background-image: url(../images/banner_top.jpg);
+    background-size: cover;
+    padding: 0%;
+}
+.navRow{
+    background-color: rgba(0, 0, 0, 0.879);
+    height: 9vh;
+    width: 100%;
+
+}
+h1, p{
+    color:rgba(89, 87, 87, 0.988);
+}
+.nav-link:hover, .h1WorkWithUs{
+    color: white;
+}
+.logo{
+    width: 20%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: auto; 
+    margin-top: 0%;
+}
+.textWhite, .bannerTop, p h1, .h1TextUsers{
+    color: white!important;
+}
+.textWhite:hover{
+    cursor: url("../images/arroz.png"), auto!important;
+
+}
+.sizeNav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.spaceNav{
+    width: 21.5vh;
+}
+.allDishesUsers{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.marginAllDishesUsers{
+    margin-top:50px;
+    display: flex;
+    justify-content: space-around;
+}
+.imageCardUsers{
+    height: 100%;
+    
+}
+.botonVer{
+    background-color:transparent!important;
+    border: none;
+}
+.botonEditar{
+    background-color:transparent!important;
+    border: none;
+}
+.botonBorrar{
+    background-color:transparent!important;
+    border: none;
+}
+.botonVer:hover{
+    background-color:transparent!important;
+    border: none;
+    transform: scale(2.3);
+    
+}
+.botonEditar:hover{
+    background-color:transparent!important;
+    border: none;
+    transform: scale(2.3);
+    
+}
+.botonBorrar:hover{
+    background-color:transparent!important;
+    border: none;
+    transform: scale(2.3);
+   
+}
+.oneDishUsers{
+    display:flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+.colOneDishUsers{
+    display:flex;
+    justify-content: center;
+}
+.rowCarousel{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+.carouselSice{
+    width: 80%;
+}
+.colCarousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textUsers{
+    text-align: center;
+    color: white!important;
+    margin-top: 19vh;
+}
+
+
+
+
+
