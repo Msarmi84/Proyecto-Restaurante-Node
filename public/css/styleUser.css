@@ -1,46 +1,62 @@
 
 body{
-    background-image: url(../images/banner_top.jpg);
+    font-family: 'Amatic SC', cursive;
+    background-image: url(../images/banner.jpg);
     background-size: cover;
     padding: 0%;
+    font-family: 'Amatic SC', cursive;
 }
-.navRow{
-    background-color: rgba(0, 0, 0, 0.879);
-    height: 9vh;
+.fondoNav{
+    background-color: rgba(0, 0, 0, 0.879)!important;
     width: 100%;
-
-}
-h1, p{
-    color:rgba(89, 87, 87, 0.988);
-}
-.nav-link:hover, .h1WorkWithUs{
-    color: white;
-}
-.logo{
-    width: 20%;
-    height: 9vh;
+    z-index: 999;
+    position: fixed;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
-.logo img{
-    width: auto; 
-    margin-top: 0%;
-}
-.textWhite, .bannerTop, p h1, .h1TextUsers{
+.bannerTop, p h1, .pmakeDishes, .h1WorkWithUs{
     color: white!important;
 }
-.textWhite:hover{
-    cursor: url("../images/arroz.png"), auto!important;
+.logoNav{
+    filter: invert(1.8);
+    margin-left: 50px;
+}
+.menuAlingNav{
+    justify-content: flex-end;
+    margin-right: 50px;
 
 }
-.sizeNav{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
+.colorIconNav{
+    filter: invert(1.8);
 }
-.spaceNav{
-    width: 21.5vh;
+.textWhite{
+    color:white!important;
+    font-size: x-large;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+
+}
+.textWhiteMenu{
+    margin-left: 30px;
+    color: white!important;
+    font-size: x-large;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+.textWhiteMenu:hover{
+    cursor: url("../images/dishIcon.png"), auto!important;
+ 
+}
+.containerLinkNav{
+    display: flex;
+
+}
+.subTilteFooter{
+    color: white!important;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: x-large;
 }
 .allDishesUsers{
     padding: 20px;
@@ -49,25 +65,48 @@ h1, p{
 }
 
 .marginAllDishesUsers{
-    margin-top:50px;
+    margin-top:40px;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 40px;
+}
+.alinearFormSpeciality{
+    display: flex;
+    justify-content: center;
+    margin-top:20vh;
+    margin-bottom:20vh;
 }
 .imageCardUsers{
     height: 100%;
     
 }
+.botonSaveDish:hover{
+    cursor: url("../images/dishIcon.png"), auto!important;
+ 
+}
+.botonFooter:hover{
+    cursor: url("../images/dishIcon.png"), auto!important;
+    border: 1px solid white;
+    
+}
 .botonVer{
     background-color:transparent!important;
     border: none;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+
 }
 .botonEditar{
     background-color:transparent!important;
     border: none;
+    letter-spacing: 2px;
+    word-spacing: 1px;
 }
 .botonBorrar{
     background-color:transparent!important;
     border: none;
+    letter-spacing: 2px;
+    word-spacing: 1px;
 }
 .botonVer:hover{
     background-color:transparent!important;
@@ -95,27 +134,83 @@ h1, p{
 .colOneDishUsers{
     display:flex;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-.rowCarousel{
-    display: flex;
-    margin-top: 50px;
-    justify-content: center;
 
-}
-.carouselSice{
-    width: 80%;
-}
-.colCarousel{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .textUsers{
     text-align: center;
     color: white!important;
     margin-top: 19vh;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+.makeDishes{
+    margin-top:30px;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.879);
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+.h1makeDishes{
+    color: white;
+    margin-top:30px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: xxx-large;
+    
+}
+.botonFooter{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 12px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    
+}
+.margenBodyCard{
+    padding: 20px;
+}
+.rowFooterIconosUsers{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.colFooterIconos{
+    width: 50%;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.iconFooter{
+    width: 5%;
+}
+.transparent{
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.h1TextUsers, .h5TextIsers{
+    color: rgb(29, 29, 29)!important;
+    font-size: xxx-large;
+}
+.textCard{
+    font-size: x-large;
+    letter-spacing: 1px;
+    word-spacing: 2px;
 }
 
+
+@media (max-width: 375px) {
+
+    .allDishesIndex {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+  }
 
 
 

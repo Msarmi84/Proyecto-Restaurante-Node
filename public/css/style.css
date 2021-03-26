@@ -1,50 +1,105 @@
-.navRow{
-    background-color: rgba(0, 0, 0, 0.879);
-    height: 9vh;
+body{
+    font-family: 'Amatic SC', cursive;
+}
+.fondoNav{
+    background-color: rgba(0, 0, 0, 0.879)!important;
     width: 100%;
-
-}
-h1, p{
-    color:rgba(89, 87, 87, 0.988);
-}
-.nav-link:hover, .h1WorkWithUs, .h1makeDishes, .pmakeDishes{
-    color: white;
-}
-.logo{
-    width: 20%;
-    height: 9vh;
+    z-index: 999;
+    position: fixed;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
-.logo img{
-    width: auto; 
-    margin-top: 0%;
+p, .pmakeDishes {
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: xx-large;
 }
-.textWhite, .bannerTop, p h1{
+.h1WorkWithUs, .bannerTop{
     color: white!important;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: xxx-large;
 }
-.textWhite:hover{
-    cursor: url("../images/arroz.png"), auto!important;
+
+.subTilteFooter{
+    color: white!important;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: x-large;
+}
+.logoNav{
+    filter: invert(1.8);
+    margin-left: 50px;
+}
+.menuAlingNav{
+    justify-content: flex-end;
+    margin-right: 50px;
 
 }
-.sizeNav{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
+.colorIconNav{
+    filter: invert(1.8);
 }
-.spaceNav{
-    width: 21.5vh;
+.textWhite{
+    color:white!important;
+    font-size: x-large;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+
+}
+.textWhiteMenu{
+    margin-left: 30px;
+    color: white!important;
+    font-size: x-large;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    
+   
+}
+.textWhiteMenu:hover{
+    cursor: url("../images/dishIcon.png"), auto!important;
+ 
+}
+.containerLinkNav{
+    display: flex;
+}
+.allChefIndex{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.marginAllDishesIndex{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+}
+.efectoCardDishes:hover{
+    -webkit-box-shadow: 1px 20px 40px -12px rgb(60, 60, 60) ;
+    -moz-box-shadow: 1px 9px 40px -12px rgb(43, 43, 43) ;
+    box-shadow:rgb(60, 60, 60) ;
+    transform: translateX(10px) rotate(10deg) translateY(5px);
+}
+.efectoCardChefs:hover{
+    transform: scale(1.2);
+    transition: all 0.5s; 
+}
+.botonVer{
+    letter-spacing: 2px;
+    word-spacing: 1px;
+
+}
+.botonVer:hover{
+    cursor: url("../images/dishIcon.png"), auto!important;
 }
 
 .bannerTop{
-    background-image: url(../images/banner_top.jpg);
+    background-image: url(../images/banner.jpg);
     background-size: cover;
     padding: 0%;
     height: 90vh;
 }
 .logoBanner{
     width: auto;
+    filter: invert(1.8);
 }
 .bannerTopCol{
     height: 36vh;
@@ -54,13 +109,14 @@ h1, p{
     justify-content: space-evenly;
     margin-top: 21.5vh;
 }
-.h1Banner{
-    color: white;
-}
+
 
 .encabezado{
     text-align: center;
     margin-top: 50px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: x-large;
 }
 
 .imgCard{
@@ -75,6 +131,9 @@ h1, p{
 .textBodyCard{
     text-align: center;
     color:rgba(89, 87, 87, 0.879);
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: x-large;
 }
 .sombraCard{
     box-shadow:-4px -2px 9px 8px #e0d9e0af;
@@ -101,12 +160,16 @@ h1, p{
 .colCardOne{
     display: flex;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.879);
 }
-
 .workWithUs{
-    height: 30vh;
+    height: 35vh;
     background-color: rgba(0, 0, 0, 0.879);
     text-align: center;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: x-large;
 }
 .workWithUsCol {
     margin-top:20px;
@@ -114,9 +177,7 @@ h1, p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-.makeDishes{
-    margin-top:30px
+    
 }
 
 .iconWorkWithUs {
@@ -140,12 +201,14 @@ h1, p{
 .h1Form{
     margin-top: 30px;
     color: rgb(97, 97, 97);
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: x-large;
 }
 .imgCardFooter{
     width: 60%;
     margin-top: 10px;
     filter: opacity(0.7);
-    
 }
 .iconCardFooter{
     display:flex;
@@ -168,61 +231,133 @@ h1, p{
 }
 .alinearForm{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin-top:30px;
+}
+.alinearFormSpeciality{
+    display: flex;
+    justify-content: center;
+    margin-top:80px;
+}
+.marginForm{
+    padding: 20px;
 }
 .borderNone{
     border:none!important;
 }
 .colorTextLink{
-    color: rgb(57, 56, 56);
+    color: rgb(52, 50, 50);
     font-weight: bold;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: x-large;
 }
 .colorTextLink:hover {
     color: rgb(57, 56, 56);
     font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: x-large;
 }
 .allDishesIndex{
     padding: 30px;
     display: flex;
     justify-content: space-around;
+    padding: 30px 180px;
 }
 .marginAllDishesIndex{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+}
+.marginAllChefIndex{
     margin-top:30px;
     display: flex;
     justify-content: center;
 }
 .makeDishes{
-    height: 30vh;
     background-color: rgba(0, 0, 0, 0.879);
     text-align: center;
+    margin-top:30px;
    }
 .botonFooter{
     background-color: transparent;
     border: 1px solid white;
     border-radius: 12px;
+    margin-bottom: 30px;
+    font-size: medium;
+    letter-spacing: 2px;
+    word-spacing: 1px;
     
 }
+.titleWhite, .textWhiteCard{
+    color:white;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: xxx-large;
+}
+.textWhiteLink{
+    color: white;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: medium;
+}
+.textWhiteLink:hover{
+    cursor: url("../images/dishIcon.png"), auto!important;
+    color: white;
+}
 .botonFooter:hover{
-    cursor: url("../images/arroz.png"), auto!important;
+    cursor: url("../images/dishIcon.png"), auto!important;
     border: 1px solid white;
 }
 .botonSaveDish{
     margin-bottom: 30px;
+    font-size: medium;
+    letter-spacing: 2px;
+    word-spacing: 1px;
 }
 .botonSaveDish:hover{
-    cursor: url("../images/arroz.png"), auto!important;
- 
+    cursor: url("../images/dishIcon.png"), auto!important;
+    font-size: medium;
+
+}
+.botonBannerMiddle:hover{
+    background-color: transparent;
+    border:1px solid rgb(40, 39, 39);
+    color: rgb(40, 39, 39);
+    font-weight: bold;
+    font-size: medium;
+    
 }
 .h1makeDishes{
-    margin-top: 7vh;
     color: white;
+    margin-top:30px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: xxx-large;
+    
 }
 .colFooterIconos{
     width: 50%;
     display:flex;
     justify-content: space-evenly;
     padding: 30px;
+}
+.displayColBannerMiddle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.879);
+   
+}
+.bodyCardBannerMiddle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
 }
 .iconFooter{
     width: 5%;
@@ -233,16 +368,44 @@ h1, p{
     align-items: center;
 }
 .botonBanner:hover{
-    cursor: url("../images/arroz.png"), auto!important;
+    cursor: url("../images/dishIcon.png"), auto!important;
 
 }
 
 .carrouselSushi{
-    width: 35%;
+    width: 55%;
 }
-.imgCarrouselSushi{
-    filter: invert(1);
+.subTilte{
+    font-size: x-large;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    color: rgba(85, 85, 85, 0.582);
 }
+.textCard{
+    font-size: x-large;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+
+@media (max-width: 375px) {
+
+    .allChefIndex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .allDishesIndex {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+}
+
 
 
 
