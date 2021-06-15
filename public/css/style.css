@@ -392,16 +392,15 @@ p, .pmakeDishes {
 
     .allChefIndex {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
       
     }
     .allDishesIndex {
 
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        padding: 0; 
+        display: 0;
+        justify-content: 0;
+    
       
     }
 }
